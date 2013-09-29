@@ -16,4 +16,9 @@ angular.module('myApp.controllers', []).
     {name: "Cerveja 03", type: "Cerveja 03", description: "Cerveja 03"}];
     $scope.cervejas = cervejas;
     $scope.logado = false;
+  })
+  .controller('TesteController', function($scope){
+    $scope.testar = function(){
+      console.log("testando");
+    }
   });
