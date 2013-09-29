@@ -15,4 +15,5 @@ angular.module('myApp.controllers', []).
     {name: "Cerveja 02", type: "Cerveja 02", description: "Cerveja 02"},
     {name: "Cerveja 03", type: "Cerveja 03", description: "Cerveja 03"}];
     $scope.cervejas = cervejas;
+    $scope.logado = false;
   });
