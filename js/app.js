@@ -14,7 +14,7 @@ angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.directives', 
     })
     .when('/beers', {
       templateUrl: 'partials/beer_list.html', 
-      controller: 'MyCtrl2'
+      controller: 'BeerController'
     })
     .otherwise({redirectTo: '/view1'});
   }]);
