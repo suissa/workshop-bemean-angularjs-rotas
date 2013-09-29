@@ -1,2 +1,6 @@
 <h2>Listagem das cervejas</h2>
-<h3>{{ cerveja }}</h3>
+<h3>{{ cervejas }}</h3>
+
+<ul>
+  <li data-ng-repeat="cerveja in cervejas">{{ cerveja.name }} - {{ cerveja.type }}</li>
+</ul>
